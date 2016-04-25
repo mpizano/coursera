@@ -1,0 +1,112 @@
+/* Base Styles */
+*{
+	box-sizing: border-box;
+}
+h1{
+	text-align: center;
+	font-size: 30px;
+}
+
+p {
+	width: 90%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 30px;
+	word-wrap: break-word;
+	background-color: #e3e3e3;
+	font-family: helvetica;
+}
+
+.title {
+	float: right;
+	width: 30%;
+	text-align: center;
+	margin-bottom: 20px;
+	border: 1px solid gray;
+}
+
+/*Simple Responsive framework */
+.row{
+	width: 95%;
+	overflow: hidden;
+	align-content: center;
+	margin: 0 auto;
+}
+
+.row_2{
+	width: 95%;
+	overflow: hidden;
+	align-content: center;
+	border: 1px solid #999;
+	background-color: #c9c9c9;
+	margin: 10px 2%;
+}
+
+/*Desktop*/
+.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4 {
+	float: left;
+	border: 1px solid gray;
+}
+
+.col-lg-1{
+	width: 8.33%;
+}
+
+.col-lg-2{
+	width: 16.66%;
+}
+
+.col-lg-3{
+	width: 25%;
+	
+}
+
+.col-lg-4{
+	width: 33%;
+	float: left;
+}
+
+
+
+.red {
+	background-color: red;
+}
+.green {
+	background-color: green;
+}
+
+.orange {
+	background-color: orange;
+}
+
+/*Tablet Devices */
+@media (min-width: 768px) and (max-width: 991px){
+	 .col-md-6, .col-md-12, {
+		float: left;
+		border: 1px solid gray;
+	}
+
+
+	.col-md-6{
+		width: 50%;
+	}
+
+	.col-md-12{
+		width: 100%;
+		float: left;
+	}
+}
+
+/* Mobile Devices*/
+@media (max-width: 767px){
+	 .col-sm-12, {
+		float: left;
+		
+	}
+
+	.col-sm-12{
+		width: 100%;
+		float: left;
+	}
+
+}
